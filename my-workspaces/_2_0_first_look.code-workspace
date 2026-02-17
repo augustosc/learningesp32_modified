@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../_2_first_look/_2_0_blinky"
+		},
+		{
+			"path": "../_2_first_look/_2_1_logging"
+		},
+		{
+			"path": "../_2_first_look/_2_2_delay"
+		},
+		{
+			"path": "../_2_first_look/_2_3_random_generator-dice"
+		},
+		{
+			"path": "../_2_first_look/_2_4_capturing_input"
+		},
+		{
+			"path": "../_2_first_look/_2_5_using_examples_chip_data_1"
+		}
+	],
+	"settings": {}
+}

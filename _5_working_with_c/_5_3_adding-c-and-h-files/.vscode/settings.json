@@ -1,0 +1,17 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.port": "/dev/tty.wchusbserial56980064181",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "/Users/augustosherman/.espressif/tools/esp-clang/16.0.1-fe4f10a809/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/augustosherman/Documents/esp-projects/_5_3_adding-c-and-h-files/build"
+  ],
+  "idf.flashType": "UART"
+}

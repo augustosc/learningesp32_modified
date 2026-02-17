@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../_5_working_with_c/_5_1_structure_and_pointer_primer"
+		},
+		{
+			"path": "../_5_working_with_c/_5_2_function_pointer"
+		},
+		{
+			"path": "../_5_working_with_c/_5_2_pointer_to_function"
+		},
+		{
+			"path": "../_5_working_with_c/_5_3_adding-c-and-h-files"
+		},
+		{
+			"path": "../_5_working_with_c/_5_4_creating_compents"
+		},
+		{
+			"path": "../_5_working_with_c/_5_5_external_components"
+		},
+		{
+			"path": "../_5_working_with_c/_5_6_external_libraries"
+		}
+	],
+	"settings": {}
+}
