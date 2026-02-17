@@ -11,6 +11,6 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=/Users/augustosherman/Documents/esp-projects/_5_1_structure_and_pointer_primer/build"
+    "--compile-commands-dir=/Users/augustosherman/Documents/esp-projects/_5_working_with_c/_5_1_structure_and_pointer_primer/build"
   ]
 }
