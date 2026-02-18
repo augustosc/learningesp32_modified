@@ -5,6 +5,15 @@
 		},
 		{
 			"path": "../_6_Fundamentals_in_freertos/_6_0_task_nofications_2"
+		},
+		{
+			"path": "../_6_Fundamentals_in_freertos/_6_1_FreeRtos_tasks"
+		},
+		{
+			"path": "../_6_Fundamentals_in_freertos/_6_2_FreeRtos_tasks_second_core"
+		},
+		{
+			"path": "../_6_Fundamentals_in_freertos/_6_3_mutex_semaphore"
 		}
 	],
 	"settings": {}
