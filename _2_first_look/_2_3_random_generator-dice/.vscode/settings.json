@@ -1,9 +1,0 @@
-{
-  "C_Cpp.intelliSenseEngine": "default",
-  "clangd.path": "/Users/augustosherman/.espressif/tools/esp-clang/16.0.1-fe4f10a809/esp-clang/bin/clangd",
-  "clangd.arguments": [
-    "--background-index",
-    "--query-driver=**",
-    "--compile-commands-dir=/Users/augustosherman/Documents/esp-projects/_2_3_random_generator-dice/build"
-  ]
-}

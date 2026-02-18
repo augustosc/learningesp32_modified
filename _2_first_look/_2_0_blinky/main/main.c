@@ -3,7 +3,7 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
-#define PIN 2
+#define PIN 3
 
 void app_main()
 {

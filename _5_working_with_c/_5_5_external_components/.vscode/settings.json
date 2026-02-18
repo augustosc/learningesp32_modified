@@ -1,5 +1,0 @@
-{
-  "C_Cpp.intelliSenseEngine": "default",
-  "idf.port": "/dev/tty.wchusbserial56980064181",
-  "idf.flashType": "UART"
-}
