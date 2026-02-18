@@ -3,6 +3,10 @@
 
 void app_main(void)
 {
-    int result = add(3, 5);
-    printf("result = %d\n", result);
+    int a=3,b=4;
+    printf("(%d,%d):\n", a,b);
+    printf("add = %d\n", add(a,b));
+    printf("sub = %d\n", sub(a,b));
+    printf("mul = %d\n", mul(a,b));
+    printf("div = %.2f\n", divm(a,b));
 }
