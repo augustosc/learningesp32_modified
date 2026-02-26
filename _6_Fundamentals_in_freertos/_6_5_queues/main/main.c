@@ -19,7 +19,7 @@ void listenForHTTP(void *params)
     long ok = xQueueSend(queue, &count, 1000 / portTICK_PERIOD_MS);
     if (ok)
     {
-      printf("added message to queue\n");
+      printf("added message to queue %d\n",count);
     }
     else
     {
@@ -37,7 +37,7 @@ void task1(void *params)
     int rxInt;
     if (xQueueReceive(queue, &rxInt, 5000 / portTICK_PERIOD_MS))
     {
-      printf("doing something with http %d\n", rxInt);
+      printf("doing something with http %d\n\n", rxInt);
     }
   }
 }

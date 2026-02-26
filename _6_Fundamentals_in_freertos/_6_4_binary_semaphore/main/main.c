@@ -5,13 +5,12 @@
 #include "freertos/task.h"
 #include "freertos/semphr.h"
 
-// IDF 4 / 5
-SemaphoreHandle_t binSemaphore;
 
-// IDF 4
-//  xSemaphoreHandle binSemaphore;
+SemaphoreHandle_t binSemaphore;   // cria o handle para o semáforo
+
 
 void listenForHTTP(void *params)
+//< task que libera o semáforo
 {
   while (true)
   {
@@ -22,7 +21,8 @@ void listenForHTTP(void *params)
   }
 }
 
-void task1(void *params)
+void doSomething(void *params)
+//< task que aguarada o semáforo livre para executar alguma função
 {
   while (true)
   {
@@ -33,7 +33,16 @@ void task1(void *params)
 
 void app_main(void)
 {
+  //< cria o semáforo
   binSemaphore = xSemaphoreCreateBinary();
-  xTaskCreate(&listenForHTTP, "get http", 2048, NULL, 2, NULL);
-  xTaskCreate(&task1, "do something with http", 2048, NULL, 1, NULL);
+
+  //< cria as tasks
+
+  //< com prioridade maior doSomething é executada logo após a liberação do semáforo
+  xTaskCreate(&doSomething, "do something with http", 2048, NULL, 2, NULL);
+
+  xTaskCreate(&listenForHTTP, "get http", 2048, NULL, 1, NULL);
+
+  
+  
 }

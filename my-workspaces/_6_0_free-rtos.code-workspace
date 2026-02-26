@@ -14,6 +14,12 @@
 		},
 		{
 			"path": "../_6_Fundamentals_in_freertos/_6_3_mutex_semaphore"
+		},
+		{
+			"path": "../_6_Fundamentals_in_freertos/_6_4_binary_semaphore"
+		},
+		{
+			"path": "../_6_Fundamentals_in_freertos/_6_5_queues"
 		}
 	],
 	"settings": {}
